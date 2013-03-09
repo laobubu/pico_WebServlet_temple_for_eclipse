@@ -1,6 +1,5 @@
-e: REM YourPATH
-cd \ REM YourPATH
-
+%~d0
+cd %~dp0
 rmdir /s /q temp
 mkdir output
 del output/out.war
